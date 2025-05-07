@@ -460,8 +460,8 @@ header:before {
 @media all and (max-width: 660px) {
   h1,
   .h1 {
-    font-size: 28px;
-    line-height: 22px;
+    font-size: 24px;
+    line-height: 28px;
   }
 
   h2,
