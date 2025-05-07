@@ -25,7 +25,6 @@
     <link rel="stylesheet" href="./css/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./css/style.css" />
   </head>
-
   <body>
     <div class="layer">
       <div class="logos">
@@ -65,7 +64,7 @@
     </header>
     <div class="max-width">
       <div class="intro">
-        <h1 class="h2">
+        <h1 class="h2 show-in-view">
           DragonSkull was formed by members Aris “Ares” Labos on vocals ,
           Christos Brintzikis on guitars/vocals, George Voudouris on
           bass/vocals, Thodoris Stamatiadis on drums and Panos “Wallach”
@@ -73,7 +72,7 @@
           the aspiration of playing Epic/Heavy metal.
         </h1>
 
-        <p>
+        <p class="show-in-view">
           Shortly thereafter, the band started working on its first
           compositions, with 5 full tracks ultimately making their way into the
           band’s first release, the (self) titled EP “DragonSkull”. Despite
@@ -88,7 +87,7 @@
           and others).
         </p>
 
-        <p>
+        <p class="show-in-view">
           The EP’s positive response followed a number of well-sought after
           local gigs, with the most notable ones being special guests to US
           Power Metal pioneers Jag Panzer and supporting acts to legendary
@@ -99,7 +98,7 @@
           accompanying stage act.
         </p>
 
-        <p>
+        <p class="show-in-view">
           DragonSkull's first full length album, came in March 2025, titled
           ''Chaos Fire Vengeance'' by the mighty Greek label, Eat Metal Records.
           The album contains 8 brand new tracks bearing the epic savage metal
@@ -109,9 +108,9 @@
         </p>
       </div>
       <div class="music">
-        <h2 class="h1 title">Our Music</h2>
+        <h2 class="h1 title show-in-view">Our Music</h2>
         <div class="flex">
-          <div class="col-1">
+          <div class="col-1 show-in-view">
             <h3>Chaos Fire Vengeance (2025)</h3>
             <img
               src="./imgs/albums/chaos_fire.png"
@@ -130,7 +129,7 @@
               ></iframe>
             </div>
           </div>
-          <div class="col-2">
+          <div class="col-2 show-in-view">
             <h3>Dragon Skull EP (2022)</h3>
             <img
               src="./imgs/albums/dragonskull_ep.png"
@@ -153,11 +152,11 @@
       </div>
     </div>
     <div class="photos">
-      <h2 class="h1 title">Photos</h2>
+      <h2 class="h1 title show-in-view">Photos</h2>
       <div class="swipe">
         <img src="./imgs/swipe.gif" alt="Swipe gif" />
       </div>
-      <div class="swiper">
+      <div class="swiper show-in-view">
         <div class="swiper-wrapper">
           <div class="swiper-slide">
             <img src="./imgs/photos/13.png" alt="Dragon Skull photo" />
@@ -201,10 +200,10 @@
     </div>
     <div class="max-width">
       <div class="gigs">
-        <h2 class="h1 title">Shows we played (so far)</h2>
+        <h2 class="h1 title show-in-view">Shows we played (so far)</h2>
         <div class="grid">
           <div class="grid-sizer"></div>
-          <div class="grid-item">
+          <div class="grid-item show-in-view">
             <div>
               <img
                 src="./imgs/posters/domine.jpg"
@@ -212,7 +211,7 @@
               />
             </div>
           </div>
-          <div class="grid-item">
+          <div class="grid-item show-in-view">
             <div>
               <img
                 src="./imgs/posters/smoulder.jpg"
@@ -220,7 +219,7 @@
               />
             </div>
           </div>
-          <div class="grid-item">
+          <div class="grid-item show-in-view">
             <div>
               <img
                 src="./imgs/posters/solitary_sabred.JPG"
@@ -228,7 +227,7 @@
               />
             </div>
           </div>
-          <div class="grid-item">
+          <div class="grid-item show-in-view">
             <div>
               <img
                 src="./imgs/posters/into_battle_fest.jpg"
@@ -236,7 +235,7 @@
               />
             </div>
           </div>
-          <div class="grid-item">
+          <div class="grid-item show-in-view">
             <div>
               <img
                 src="./imgs/posters/jag_panzer.jpg"
@@ -244,7 +243,7 @@
               />
             </div>
           </div>
-          <div class="grid-item">
+          <div class="grid-item show-in-view">
             <div>
               <img
                 src="./imgs/posters/under_the_quarry.jpg"
@@ -254,7 +253,7 @@
           </div>
         </div>
       </div>
-      <footer class="contact">
+      <footer class="contact show-in-view">
         <h2 class="h1 title">Contact us</h2>
         <div>
           <h3>Follow us</h3>
@@ -277,6 +276,8 @@
       </footer>
     </div>
     <script src="./js/masonry.pkgd.min.js"></script>
+    <script src="./js/gsap.min.js"></script>
+    <script src="./js/ScrollTrigger.min.js"></script>
     <script src="./js/swiper-bundle.min.js"></script>
     <script src="./app.js"></script>
   </body>

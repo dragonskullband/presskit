@@ -130,6 +130,15 @@ a:hover {
   margin: 0 0 40px;
 }
 
+.show-in-view {
+  opacity: 0;
+  transition: opacity 0.75s;
+}
+
+.show-in-view.animate {
+  opacity: 1;
+}
+
 .layer.hide {
   opacity: 0;
 }
@@ -451,14 +460,14 @@ header:before {
 @media all and (max-width: 660px) {
   h1,
   .h1 {
-    font-size: 32px;
-    line-height: 26px;
+    font-size: 28px;
+    line-height: 22px;
   }
 
   h2,
   .h2 {
-    font-size: 24px;
-    line-height: 29px;
+    font-size: 20px;
+    line-height: 25px;
   }
 
   .logos {
